@@ -1,0 +1,625 @@
+/* mobile small screen */
+@media screen and (max-width:320px) {
+    .navbar {
+        max-height: 50px !important;
+        padding-left: 0.75rem !important;
+        padding-right: 0 !important;
+    }
+
+    .my-navbar-brand {
+        border-radius: 10px 10px 0 0;
+        padding-left: 1.5rem !important;
+        padding-right: 1.5rem !important;
+    }
+
+    .my-navbar-brand img {
+        width: 60px;
+    }
+
+    #navbarNavDropdown {
+        position: absolute;
+        top: 110%;
+        right: 0%;
+        width: 200px;
+        background-image: radial-gradient(circle at 0 0, #0070ba, #1546a0);
+        margin-right: .75rem;
+        padding-right: 1rem;
+        border-radius: 10px;
+        font-size: small !important;
+        font-weight: 600 !important;
+        z-index: 10;
+    }
+
+    #navbarNavDropdown::after {
+        content: "";
+        position: absolute;
+        right: 8px;
+        top: -2px;
+        background-color: #0d57ab;
+        padding: 10px;
+        -ms-transform: rotate(45deg);
+        /* IE 9 */
+        transform: rotate(45deg);
+        z-index: -10;
+    }
+
+    .my-gif {
+        width: 200px !important;
+        height: 100% !important;
+    }
+
+    .my-img-1 {
+        border-radius: 10px !important;
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    .my-play-btn {
+        padding-left: 1rem !important;
+    }
+
+    .my-play-btn a i {
+        font-size: 30px !important;
+    }
+
+    .my-bg-curve {
+        height: -webkit-fill-available !important;
+
+    }
+
+    .my-div-1 {
+        margin-bottom: 1rem !important;
+    }
+
+    .my-img-2 {
+        margin-left: auto !important;
+        margin-right: auto !important;
+        width: 200px !important;
+        height: 200px !important;
+    }
+
+    .my-img-3 {
+        margin-left: auto !important;
+        margin-right: auto !important;
+        width: 250px !important;
+        height: 250px !important;
+    }
+
+    .my-div-2 {
+        padding-bottom: 1rem !important;
+    }
+
+    .my-section-1 {
+        height: auto !important;
+    }
+
+    .my-row-1 {
+        padding-top: 0.75rem !important;
+    }
+
+    .my-round-card {
+        width: auto !important;
+        margin-bottom: 1rem !important;
+    }
+
+    .my-card {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+
+    .my-card .card-body {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .my-card .card-body img {
+        width: 150px !important;
+    }
+
+    .my-card .card-body div a {
+        padding: 0.25rem 0.5rem;
+        font-size: .875rem;
+        line-height: 1.5;
+        border-radius: 0.2rem;
+    }
+
+    .my-card .card-body p {
+        padding: 0 !important;
+        font-size: medium;
+    }
+
+
+}
+
+/* mobile medium screen */
+
+@media screen and (min-width:320px) and (max-width:375px) {
+    .navbar {
+        max-height: 50px !important;
+        padding-left: 0.75rem !important;
+        padding-right: 0 !important;
+    }
+
+    .my-navbar-brand {
+        border-radius: 10px 10px 0 0;
+        padding-left: 1.5rem !important;
+        padding-right: 1.5rem !important;
+    }
+
+    .my-navbar-brand img {
+        width: 60px;
+    }
+
+    #navbarNavDropdown {
+        position: absolute;
+        top: 110%;
+        right: 0%;
+        width: 200px;
+        background-image: radial-gradient(circle at 0 0, #0070ba, #1546a0);
+        margin-right: .75rem;
+        padding-right: 1rem;
+        border-radius: 10px;
+        font-size: small !important;
+        font-weight: 600 !important;
+        z-index: 10;
+    }
+
+    #navbarNavDropdown::after {
+        content: "";
+        position: absolute;
+        right: 18px;
+        top: -2px;
+        background-color: #0d57ab;
+        padding: 10px;
+        -ms-transform: rotate(45deg);
+        /* IE 9 */
+        transform: rotate(45deg);
+        z-index: -10;
+    }
+
+    .my-gif {
+        width: 200px !important;
+        height: 100% !important;
+    }
+
+    .my-row-1 {
+        padding-top: 0 !important;
+    }
+
+    .my-img-1 {
+        border-radius: 10px !important;
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    .my-play-btn {
+        padding-left: 1rem !important;
+    }
+
+    .my-play-btn a i {
+        font-size: 30px !important;
+    }
+
+    .my-bg-curve {
+        height: -webkit-fill-available !important;
+
+    }
+
+    .my-div-1 {
+        margin-bottom: 1rem !important;
+    }
+
+    .my-div-2 {
+        padding-bottom: 1rem !important;
+    }
+
+    .my-img-2 {
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .my-img-3 {
+        margin-left: auto !important;
+        margin-right: auto !important;
+        width: 300px !important;
+        height: 300px !important;
+    }
+
+    .my-section-1 {
+        height: auto !important;
+    }
+
+    .my-row-1 {
+        padding-top: 0.75rem !important;
+    }
+
+    .my-round-card {
+        width: auto !important;
+        margin-bottom: 1rem !important;
+    }
+
+    .my-card {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+
+    .my-card .card-body {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .my-card .card-body img {
+        width: 200px !important;
+    }
+
+    .my-card .card-body div a {
+        padding: 0.25rem 0.5rem;
+        font-size: .875rem;
+        line-height: 1.5;
+        border-radius: 0.2rem;
+    }
+
+    .my-card .card-body p {
+        padding: 0 !important;
+        font-size: medium;
+    }
+
+
+
+
+}
+
+/* mobile large screen*/
+
+@media screen and (min-width:375px) and (max-width:425px) {
+    .navbar {
+        max-height: 50px !important;
+        padding-left: 1rem !important;
+        padding-right: 0 !important;
+    }
+
+    .my-navbar-brand {
+        border-radius: 10px 10px 0 0;
+        padding-left: 1.5rem !important;
+        padding-right: 1.5rem !important;
+    }
+
+    .my-navbar-brand img {
+        width: 60px;
+    }
+
+    #navbarNavDropdown {
+        position: absolute;
+        top: 110%;
+        right: 0%;
+        width: 200px;
+        background-image: radial-gradient(circle at 0 0, #0070ba, #1546a0);
+        margin-right: .75rem;
+        padding-right: 1rem;
+        border-radius: 10px;
+        font-size: small !important;
+        font-weight: 600 !important;
+        z-index: 10;
+    }
+
+    #navbarNavDropdown::after {
+        content: "";
+        position: absolute;
+        right: 8px;
+        top: -2px;
+        background-color: #0d57ab;
+        padding: 10px;
+        -ms-transform: rotate(45deg);
+        /* IE 9 */
+        transform: rotate(45deg);
+        z-index: -10;
+    }
+
+    .my-gif {
+        width: 300px !important;
+        height: 100% !important;
+    }
+
+    .my-row-1 {
+        padding-top: 0 !important;
+    }
+
+    .my-img-1 {
+        border-radius: 10px !important;
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    .my-play-btn {
+        padding-left: 1rem !important;
+    }
+
+    .my-play-btn a i {
+        font-size: 30px !important;
+    }
+
+    .my-bg-curve {
+        height: -webkit-fill-available !important;
+
+    }
+
+    .my-div-1 {
+        margin-bottom: 1rem !important;
+    }
+
+    .my-div-2 {
+        padding-bottom: 1rem !important;
+    }
+
+    .my-img-2 {
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .my-img-3 {
+        margin-left: auto !important;
+        margin-right: auto !important;
+        width: 350px !important;
+        height: 350px !important;
+    }
+
+    .my-section-1 {
+        height: auto !important;
+    }
+
+    .my-row-1 {
+        padding-top: 0.75rem !important;
+    }
+
+    .my-round-card {
+        width: auto !important;
+        margin-bottom: 1rem !important;
+    }
+
+    .my-card {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+
+    .my-card .card-body {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .my-card .card-body img {
+        width: 200px !important;
+    }
+
+    .my-card .card-body div a {
+        padding: 0.25rem 0.5rem;
+        font-size: .875rem;
+        line-height: 1.5;
+        border-radius: 0.2rem;
+    }
+
+    .my-card .card-body p {
+        padding: 0 !important;
+        font-size: medium;
+    }
+}
+
+/* Tablet screen */
+@media screen and (min-width:425px) and (max-width:768px) {
+    .navbar {
+        max-height: 50px !important;
+        padding-left: 1rem !important;
+        padding-right: 0 !important;
+    }
+
+    .my-navbar-brand {
+        border-radius: 10px 10px 0 0;
+        padding-left: 1.5rem !important;
+        padding-right: 1.5rem !important;
+    }
+
+    .my-navbar-brand img {
+        width: 60px;
+    }
+
+    #navbarNavDropdown {
+        position: absolute;
+        top: 110%;
+        right: 0%;
+        width: 200px;
+        background-image: radial-gradient(circle at 0 0, #0070ba, #1546a0);
+        margin-right: .75rem;
+        padding-right: 1rem;
+        border-radius: 10px;
+        font-size: small !important;
+        font-weight: 600 !important;
+        z-index: 10;
+    }
+
+    #navbarNavDropdown::after {
+        content: "";
+        position: absolute;
+        right: 8px;
+        top: -2px;
+        background-color: #0d57ab;
+        padding: 10px;
+        -ms-transform: rotate(45deg);
+        /* IE 9 */
+        transform: rotate(45deg);
+        z-index: -10;
+    }
+
+    .my-gif {
+        width: auto !important;
+        height: 346px !important;
+    }
+
+    .my-row-1 {
+        padding-top: 0 !important;
+    }
+
+    .my-img-1 {
+        border-radius: 10px !important;
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    .my-play-btn {
+        padding-left: 1rem !important;
+    }
+
+    .my-play-btn a i {
+        font-size: 30px !important;
+    }
+
+    .my-bg-curve {
+        height: -webkit-fill-available !important;
+
+    }
+
+    .my-div-1 {
+        margin-bottom: 1rem !important;
+    }
+
+    .my-div-2 {
+        padding-bottom: 1rem !important;
+    }
+
+    .my-img-2 {
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .my-img-3 {
+        margin-left: auto !important;
+        margin-right: auto !important;
+        width: 350px !important;
+        height: 350px !important;
+    }
+
+    .my-section-1 {
+        height: auto !important;
+    }
+
+    .my-row-1 {
+        padding-top: 0.75rem !important;
+    }
+
+    .my-card {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+
+    .my-round-card {
+        /* width: auto !important; */
+        margin-bottom: 1rem !important;
+    }
+
+
+
+
+
+}
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    .my-row {
+        display: none !important;
+    }
+
+    .my-bg-curve {
+        height: 870px !important;
+    }
+
+    .my-section-1 {
+        height: auto !important;
+    }
+}
+
+
+/* Laptop Screen */
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .my-gif {
+        width: auto !important;
+        height: 400px !important;
+    }
+
+    /* 
+    .my-div-3 {
+        display: none !important;
+    } */
+
+    /* .my-img-2 {
+        display: none !important;
+    } */
+}
+
+/* Laptop Large screen */
+@media screen and (min-width:1024px) and (max-width:1440px) {
+    .my-gif {
+        width: auto !important;
+        height: 400px !important;
+    }
+
+    .my-img-1 {
+        width: 100% !important;
+        height: 425px !important;
+    }
+
+    .my-play-btn {
+        padding-left: 1rem !important;
+    }
+
+    .my-play-btn a i {
+        font-size: 40px !important;
+    }
+
+    .my-bg-curve {
+        /* height: -webkit-fill-available !important; */
+
+    }
+
+    .my-bg-curve::after {
+        content: "";
+        position: absolute;
+        background-color: red;
+        bottom: 0;
+        left: 10px;
+    }
+
+    .my-div-1 {
+        margin-bottom: 1rem !important;
+    }
+
+    .my-div-2 {
+        padding-bottom: 1rem !important;
+    }
+
+
+    .my-img-3 {
+        margin-left: auto !important;
+        margin-right: auto !important;
+        width: auto !important;
+        height: 340px !important;
+    }
+
+
+
+    .my-section-1 {
+        height: auto !important;
+    }
+
+    .my-round-card {
+        width: auto !important;
+        margin-bottom: 1rem !important;
+    }
+}
+
+/* Desktop Screen*/
+@media screen and (min-width:1440px) and (max-width:2560px) {}
+
+/* Larger Screen */
+@media screen and (min-width:12560px) {}
+
+#navbarNavDropdown {
+    font-size: medium;
+    font-weight: 400;
+}

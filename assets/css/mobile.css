@@ -1,0 +1,93 @@
+@media screen and (max-width:425px) {
+    #navbarSupportedContent {
+        text-align: right !important;
+        padding-right: 15px;
+    }
+
+    .expand {
+        display: inline-block;
+    }
+
+    .left-div {
+        /* display: none */
+        width: 150px;
+    }
+
+    .h1-explore {
+        line-height: 60px !important;
+        position: absolute;
+        left: -50% !important;
+        font-size: 2rem !important;
+    }
+
+    .gif-img {
+        width: fit-content;
+        margin-top: 118px !important;
+    }
+
+    .col-video {
+        /* height: 130px !important;
+        max-width: 225px !important; */
+        height: 126px !important;
+        max-width: 200px !important;
+        margin-left: 0 !important;
+    }
+
+    .center-para {
+        position: absolute;
+        left: -50%;
+    }
+
+
+    .right-div {
+        margin-top: 50px !important;
+    }
+
+    /************* grid section **************/
+    .grid-col{
+        height: 200px !important;
+    }
+    .grid-col.grid-15 img {
+        object-position: center !important;
+    }
+
+    /* ************************************* */
+
+    .card-section-header{
+        font-size: 20px !important;
+    }
+    .my-arrow span{
+        width: 13px;
+        height: 13px;
+        border-bottom: 2px solid black;
+        border-right: 2px solid black;
+    }
+
+    /* ************ review section ************ */
+
+    .review-section h1{
+        font-size: 24px !important;
+        padding: 30px 6px !important;
+    }
+
+    .star-span-1 i{
+        font-size: 15px !important;
+    }
+    .star-span-2 i{
+        font-size: 18px !important;
+    }
+
+    .star-span-3 i{
+        font-size: 20px !important;
+    }
+
+    /* **************************************** */
+
+
+    /* ***********Faq section ************** */
+
+    .faq-header{
+        font-size: 24px !important;
+    }
+    /* ************************************ */
+}
