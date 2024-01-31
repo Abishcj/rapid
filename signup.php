@@ -35,6 +35,11 @@
             alert('registered successfully');
             window.location.href='./signin.php';
             </script>";
+			} else {
+				echo "<script>
+            alert('username or email already exists');
+            window.location.href='./signup.php';
+            </script>";
 			}
 		}
 	}
@@ -218,6 +223,7 @@
 				eyeicon2.style.color = 'red';
 			} else {
 				password2.type = "password";
+
 
 				eyeicon2.style.color = 'black';
 			}

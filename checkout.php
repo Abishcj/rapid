@@ -1,6 +1,6 @@
 <?php
 session_start();
-if (isset($_SESSION['id']) && isset($_SESSION['name'])) {
+if (isset($_SESSION['name'])) {
 
 	if (isset($_POST['id'])) {
 		include_once 'db.php';
@@ -47,5 +47,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['name'])) {
 		echo json_encode(['id' => $checkout_session->id]);
 	}
 } else {
-	header("location:siginin.php");
+	header("location:signin.php");
+	// }
+	//echo "helllo";
 }

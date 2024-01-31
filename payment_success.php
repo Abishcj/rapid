@@ -41,4 +41,5 @@ if ($result == TRUE) {
 } else {
 	echo 'error';
 }
+var_dump($_SESSION);
 ?>

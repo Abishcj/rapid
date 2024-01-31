@@ -117,6 +117,9 @@
 						<a class="nav-link expand" href="./viewTours.php">View Tours</a>
 					</li>
 					<li class="nav-item">
+						<a class="nav-link expand" href="./freeTours.php">Free Tours</a>
+					</li>
+					<li class="nav-item">
 						<a class="nav-link expand" href="./careerTourProvider.php">Become A Tour Provider ?</a>
 					</li>
 					<li class="nav-item">
